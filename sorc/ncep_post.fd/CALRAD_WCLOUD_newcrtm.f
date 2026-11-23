@@ -1,6 +1,5 @@
 !> @file
 !> @brief Subroutine that computes model derived brightness temperature.
-!>
 !> This routine computes model derived brightness temperature
 !> using CRTM. It is patterned after GSI setuprad with Treadon's help.
 !>     
