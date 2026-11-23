@@ -2,7 +2,8 @@ help([[
 Load environment to build UPP on ursa
 ]])
 
-prepend_path("MODULEPATH", "/contrib/spack-stack/spack-stack-2.1.1/envs/ue-oneapi-2025.3.1/modules/Core")
+-- prepend_path("MODULEPATH", "/contrib/spack-stack/spack-stack-2.1.1/envs/ue-oneapi-2025.3.1/modules/Core")
+prepend_path("MODULEPATH", "/scratch4/NAGAPE/epic/David.Burrows/crtm_upgrade/nov23/spack-stack-2.1.1/envs/ue-crtm-3.1.6-oneapi-2025.3.1/modules/Core")
 
 stack_oneapi_ver=os.getenv("stack_oneapi_ver") or "2025.3.1"
 load(pathJoin("stack-intel-oneapi-compilers", stack_oneapi_ver))
