@@ -209,8 +209,7 @@ if [ $mac2 = uf ]; then # for Ursa
  export homedir=${homedir:-"/scratch4/NAGAPE/epic/role-epic/ursa/UPP/test_suite"}
  export rundir=${rundir:-"/scratch3/NCEPDEV/stmp/$USER/scrub"}
  export accnr=${accnr:-"rtrr"}
-# module use /contrib/spack-stack/spack-stack-2.1.1/envs/ue-oneapi-2025.3.1/modules/Core
- module use /scratch4/NAGAPE/epic/David.Burrows/crtm_upgrade/nov23/gillian_upp/ci/rundir/upp-URSA
+ module use /scratch4/NAGAPE/epic/David.Burrows/crtm_upgrade/nov23/spack-stack-2.1.1/envs/LDtestfiles/modules/Core
  module load stack-intel-oneapi-compilers/2025.3.1
  module load stack-intel-oneapi-mpi/2021.17
  module load prod_util/2.1.2
