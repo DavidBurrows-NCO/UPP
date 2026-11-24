@@ -109,8 +109,8 @@ hrrr() {
 
    # Same settings for all machines, unlike most tests
    export WTIME=00:20:00
-   export NODES=3
-   export N_TASKS_PER_NODE=40
+   export NODES=2
+   export N_TASKS_PER_NODE=24
 
 }
 
@@ -187,7 +187,7 @@ rrfs() {
       ;;
       URSA)
          export N_TASKS='--ntasks 240'
-         export TASKS_PER_NODE='--tasks-per-node 24'
+         export TASKS_PER_NODE='--tasks-per-node 48'
       ;;
    esac
 
