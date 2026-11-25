@@ -4,11 +4,11 @@ help([[
 
 whatis([===[Loads libraries needed for building the UPP on Gaea6 ]===])
 
-prepend_path("MODULEPATH", "/ncrc/proj/epic/spack-stack/c6/spack-stack-2.1.1/envs/ue-oneapi-2025.2.1/modules/Core")
-
+prepend_path("MODULEPATH", "/ncrc/proj/epic/spack-stack/c6/spack-stack-2.1.1/envs/ue-crtm-3.1.6-oneapi-2025.2.1/modules/Core")
 stack_intel_ver=os.getenv("stack_intel_ver") or "2025.2.1"
 load(pathJoin("stack-intel-oneapi-compilers", stack_intel_ver))
 
+prepend_path("MODULEPATH", "/ncrc/proj/epic/spack-stack/c6/spack-stack-2.1.1/envs/ue-crtm-3.1.6-oneapi-2025.2.1/modules/intel-oneapi-compilers/2025.2.1")
 stack_cray_mpich_ver=os.getenv("stack_cray_mpich_ver") or "8.1.32"
 load(pathJoin("stack-cray-mpich", stack_cray_mpich_ver))
 
