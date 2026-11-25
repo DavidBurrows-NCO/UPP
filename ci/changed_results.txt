@@ -1,0 +1,15 @@
+Check tests:
+['sfs', 'aqm', 'aigfs', 'gefsv12', 'gefsv13', 'nmmb', 'rap', 'hrrr', 'hafs', '3drtma', 'mpas', 'mpas_hfip', 'gcafs', 'rrfs', 'gfs']
+There are changes in results for case hrrr in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/hrrr_2025063004/WRFTWO.GrbF10
+There are changes in results for case rap in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/rap_2025070115/WRFPRS.GrbF06
+There are changes in results for case mpas_hfip in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/mpas_hfip_2024100700/2DFLD.GrbF48
+There are changes in results for case 3drtma in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/3drtma_2025091010/WRFTWO.GrbF00
+There are changes in results for case rrfs in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/rrfs_2026032512/NATLEV36.tm00
+There are changes in results for case rrfs in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/rrfs_2026032512/2DFLD36.tm00
+There are changes in results for case mpas in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/mpas_2024052700/POSTTWO06.tm00
+There are changes in results for case sfs in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/sfs_2017050100/sfs.t00z.master.grb2f060
+There are changes in results for case nmmb in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/nmmb_2014120818/BGRD3D03.tm00.Grib2
+There are changes in results for case nmmb in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/nmmb_2014120818/BGDAWP03.tm00.Grib2
+There are changes in results for case gefsv13 in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/gefsv13_2023080300/gefs.t00z.master.grb2f009
+There are changes in results for case gfs in /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA/gfs_2026081800/gfs.t00z.master.f012.grib2
+Refer to .diff files in rundir: /scratch4/NAGAPE/epic/David.Burrows/upp_crtm3.1.6_imp_test/gillian_upp/ci/rundir/upp-URSA for details on differences in results for each case.

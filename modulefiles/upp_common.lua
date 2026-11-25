@@ -3,14 +3,14 @@ whatis("Description: UPP build environment common libraries")
 help([[Load UPP common libraries]])
 
 local ufs_modules = {
-  {["jasper"]          = "4.2.4" },
-  {["zlib"]            = "1.2.13"  },
+  {["jasper"]          = "4.2.4"  },
+  {["zlib"]            = "1.2.13" },
   {["libpng"]          = "1.6.37" },
   {["hdf5"]            = "1.14.5" },
   {["netcdf-c"]        = "4.9.2"  },
   {["netcdf-fortran"]  = "4.6.1"  },
   {["bacio"]           = "2.6.0"  },
-  {["crtm"]            = "3.1.3"},
+  {["crtm"]            = "3.1.6"  },
   {["g2"]              = "3.5.1"  },
   {["g2tmpl"]          = "1.17.0" },
   {["ip"]              = "5.4.0"  },
